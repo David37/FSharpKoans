@@ -53,4 +53,4 @@ module ``01: About Testing`` =
    
     // Easy, right? Now try one more.
     [<Test>]
-    let ``02 Fill in the values`` () = (1 + 1) |> should equal 3
+    let ``02 Fill in the values`` () = (1 + 1) |> should equal 2
