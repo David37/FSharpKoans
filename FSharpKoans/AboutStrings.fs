@@ -97,10 +97,10 @@ module ``11: String manipulation`` =
         let result = sprintf "%d out of %d is %.1f, or (%s) %d percent." 3 5 0.6 "in other words" 60
         result |> should equal "3 out of 5 is 0.6, or (in other words) 60 percent."
 
-    // But that's not all! See the full set of formatting capabilities here:
-    // https://msdn.microsoft.com/en-us/library/ee370560.aspx
-    // You might be particularly interested in %O, if you end up using
-    // objects with F#.
+   // But that's not all! See the full set of formatting capabilities here:
+   // https://msdn.microsoft.com/visualfsharpdocs/conceptual/core.printf-module-%5bfsharp%5d
+   // You might be particularly interested in %O, if you end up using
+   // objects with F#.
 
     [<Test>]
     let ``15 You can use the "usual" C# string methods from F#``() =
